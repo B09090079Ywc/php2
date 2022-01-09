@@ -9,7 +9,7 @@
         echo "請登入帳號";
         echo "<meta http-equiv=REFRESH content='3, url=login.html'>";
     }
-    #保護程式,必須登入才能執行下一步,沒登入就會跳回登入畫面
+    #保護程式,必須登入才能執行下一步,沒登入就會跳回到登入畫面
     else{
     #mysqli_connect() 建立資料庫連結
     $conn = mysqli_connect("localhost", "root", "", "mydb");
